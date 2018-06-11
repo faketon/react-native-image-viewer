@@ -1,24 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",
     "module": "commonjs",
-    "jsx": "react-native",
-    "outDir": "build",
-    "rootDir": "src",
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
+    "strict": true,
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "preserveConstEnums": true,
-    "allowJs": true,
+    "jsx": "react-native",
+    "lib": ["dom", "es5", "es6", "scripthost"],
+    "target": "es2016",
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
+    "outDir": "built",
     "skipLibCheck": true,
-    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "demo"]
 }
