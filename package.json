@@ -2,7 +2,7 @@
   "name": "react-native-image-zoom-viewer",
   "version": "2.2.5",
   "description": "react native image viewer,大图浏览",
-  "main": "src/index.ts",
+  "main": "built/index.js",
   "types": "src/index.ts",
   "scripts": {
     "prepare": "rm -rf built && tsc",
