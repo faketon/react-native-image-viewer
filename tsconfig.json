@@ -8,6 +8,7 @@
     "lib": ["dom", "es5", "es6", "scripthost"],
     "target": "es5",
     "sourceMap": true,
+    "outDir": "built",
     "skipLibCheck": true
   },
   "exclude": ["node_modules", "demo"]
