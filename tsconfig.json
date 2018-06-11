@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "jsx": "react-native",
     "lib": ["dom", "es5", "es6", "scripthost"],
-    "target": "es5",
+    "target": "es6",
     "sourceMap": true,
     "outDir": "built",
     "skipLibCheck": true
