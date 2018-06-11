@@ -10,6 +10,7 @@
     "sourceMap": true,
     "outDir": "built",
     "skipLibCheck": true,
+    "noUnusedLocals":false,
   },
   "exclude": ["node_modules", "demo"]
 }
